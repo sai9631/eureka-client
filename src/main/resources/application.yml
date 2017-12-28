@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url: 
-      default-zone: http://localhost:8761/eureka/
+      default-zone: http://eureka-server1-sample-boot-microserv.1d35.starter-us-east-1.openshiftapps.com/
   instance:
     hostname: localhost
       
